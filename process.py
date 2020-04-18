@@ -89,7 +89,7 @@ if __name__ == '__main__':
         texts.append(data['评论'].iloc[i])
     print(texts)
     word = statistics(texts)
-    drawWordCloud(word, '狗十三影评词云', savepath='./results')
+    drawWordCloud(word, '影评词云', savepath='./results')
 
     # 有用数画柱状图
     d = data.sort_values(by='投票', ascending=False)
