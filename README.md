@@ -1,4 +1,4 @@
-# douban-crawler
+# douban-crawler-and-analysis
 豆瓣电影爬虫，爬取评论情况并进行分析，使用echart进行可视化
 
 爬虫方面，豆瓣电影评论方面只有10页左右是可以直接爬取的，在这之后的评论需要登录获取
